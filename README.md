@@ -1,11 +1,17 @@
-All of the code is implemented based on MATLAB, and the version is required to be MATLAB 2022a or above. Lower versions may not be able to ensure the operation of QRTCN, ERTCN, and LWCRPS-based deep learning.
+# QRTCN, ERTCN, and LWCRPS-based Deep Learning in MATLAB
 
-Individual models: Models 1 - 9 are individual risk models. The prediction results can be obtained by running the "main_" function.
+This repository contains code implemented in MATLAB. The code requires MATLAB 2022a or a higher version to ensure the proper operation of QRTCN, ERTCN, and LWCRPS-based deep learning. Lower versions may not be compatible.
 
-Forecast combination: "main_combine_evaluate" is the main function for the forecast combination with regularization. Running it will yield the prediction combination results and evaluation results.
+## Individual Models
+Models 1 - 9 are individual risk models. To obtain the prediction results, run the `main_` function.
 
-Data: We downloaded the S&P 500 index from an open-source website to ensure reproducibility without violating the copyright agreement.
+## Forecast Combination
+The main function for the prediction combination with regularization is `main_combine_evaluate`. Executing this function will yield the prediction combination results and evaluation results.
 
-Features: In the example, only the lagged leverage effect is constructed. Readers can add volatility on their own.
+## Data
+The S&P 500 index data used in this project is downloaded from an open-source website to ensure reproducibility while adhering to the copyright agreement.
 
-We will continue to refine and thoroughly comment on the code, and we invite researchers in related fields to engage in discussion with us.
+## Features
+In the provided example, only the lagged leverage effect is constructed. Users are encouraged to add volatility features as per their requirements.
+
+We are committed to continuously improving and thoroughly documenting the code. We welcome researchers in related fields to join us in discussions. For any inquiries or suggestions, please contact us at vvs09061513@163.com. 
