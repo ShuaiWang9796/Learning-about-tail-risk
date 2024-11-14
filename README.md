@@ -2,7 +2,7 @@ All of the code is implemented based on MATLAB, and the version is required to b
 
 Individual models: Models 1 - 9 are individual risk models. The prediction results can be obtained by running the "main_" function.
 
-Forecast combination: "main_combine_evaluate" is the main function for the prediction combination with regularization. Running it will yield the prediction combination results and evaluation results.
+Forecast combination: "main_combine_evaluate" is the main function for the forecast combination with regularization. Running it will yield the prediction combination results and evaluation results.
 
 Data: We downloaded the S&P 500 index from an open-source website to ensure reproducibility without violating the copyright agreement.
 
