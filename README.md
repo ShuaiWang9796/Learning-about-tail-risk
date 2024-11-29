@@ -1,4 +1,6 @@
 # QRTCN, ERTCN, and LWCRPS-based Deep Learning in MATLAB
+# Please cite this article: 
+# Learning about tail risk: machine learning and combination with regularization in market risk management, https://doi.org/10.1016/j.omega.2024.103249.
 
 This repository contains code implemented in MATLAB. The code requires MATLAB 2022a or a higher version to ensure the proper operation of QRTCN, ERTCN, and LWCRPS-based deep learning. Lower versions may not be compatible.
 
